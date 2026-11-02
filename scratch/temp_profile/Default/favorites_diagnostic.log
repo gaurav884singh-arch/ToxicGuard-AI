@@ -1,0 +1,38 @@
+2026-11-02 18:45:39.265: [INFO] CurrentProfilePath: C:\Users\gaura\OneDrive\Desktop\Minor Project\scratch\temp_profile\Default
+2026-11-02 18:45:39.265: [INFO] Profiles total count: 1
+2026-11-02 18:45:39.265: [INFO] Profile: name=Profile 1 path=C:\Users\gaura\OneDrive\Desktop\Minor Project\scratch\temp_profile\Default lastActive=2026-11-02T18:45:39.238Z
+2026-11-02 18:45:39.265: [INFO] LastUsedProfileDir: C:\Users\gaura\OneDrive\Desktop\Minor Project\scratch\temp_profile\Default
+2026-11-02 18:45:39.265: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\gaura\OneDrive\Desktop\Minor Project\scratch\temp_profile\Default lastActive=2026-11-02T18:45:39.238Z
+2026-11-02 18:45:39.265: [INFO] OnDoneLoading sync enabled: 0
+2026-11-02 18:45:39.265: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-02 18:45:39.265: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-02 18:45:39.265: [INFO] BookmarksSnapshot Startup total=1 bar=1 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-02 18:45:39.269: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-11-02 18:45:41.545: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-11-02 18:45:41.575: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-11-02 18:45:41.590: [INFO] Primary account changed.
+2026-11-02 18:45:41.590: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-11-02 18:45:41.607: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-11-02 18:45:42.922: [INFO] VisibilityChanged: 0
+2026-11-02 18:45:44.162: [INFO] BookmarkNodeAdded, ABU: 0
+2026-11-02 18:45:44.163: [INFO] BookmarkNodeAdded, ABU: 0
+2026-11-02 18:45:44.164: [INFO] BookmarkNodeAdded, ABU: 0
+2026-11-02 18:45:44.164: [INFO] BookmarkNodeAdded, ABU: 0
+2026-11-02 18:45:45.489: [INFO] BookmarkNodeMoved
+2026-11-02 18:45:45.490: [INFO] BookmarkNodeAdded, ABU: 0
+2026-11-02 18:45:45.490: [INFO] BookmarkNodeMoved
+2026-11-02 18:45:45.490: [INFO] BookmarkNodeMoved
+2026-11-02 18:45:45.490: [INFO] BookmarkNodeMoved
+2026-11-02 18:45:45.491: [INFO] ReorderChildren, Url: 0, IsFolder: 1, IsWorkspace: 0
+2026-11-02 18:45:45.491: [INFO] Remove, DeletionOrigin: 19
+2026-11-02 18:45:45.493: [INFO] BookmarkNodeRemoved, Url: 0, IsFolder: 1, IsWorkspace: 0
+2026-11-02 18:45:45.494: [INFO] BookmarkNodeAdded, ABU: 0
+2026-11-02 18:45:45.494: [INFO] Remove, DeletionOrigin: 19
+2026-11-02 18:45:45.496: [INFO] BookmarkNodeRemoved, Url: 1, IsFolder: 0, IsWorkspace: 0
+2026-11-02 18:45:45.497: [INFO] BookmarkNodeAdded, ABU: 0
+2026-11-02 18:45:45.497: [INFO] Remove, DeletionOrigin: 19
+2026-11-02 18:45:45.498: [INFO] BookmarkNodeRemoved, Url: 1, IsFolder: 0, IsWorkspace: 0
+2026-11-02 18:45:45.498: [INFO] BookmarkNodeAdded, ABU: 0
+2026-11-02 18:45:45.498: [INFO] Remove, DeletionOrigin: 19
+2026-11-02 18:45:45.499: [INFO] BookmarkNodeRemoved, Url: 1, IsFolder: 0, IsWorkspace: 0
+2026-11-02 18:45:46.389: [INFO] Sync initialization duration: 4440ms

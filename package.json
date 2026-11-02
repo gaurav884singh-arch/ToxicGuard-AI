@@ -1,0 +1,24 @@
+{
+  "name": "toxic-comment-moderation-system",
+  "version": "1.0.0",
+  "description": "College Capstone Project: Toxic Comment Moderation System combining NLP, Deep Learning, Full Stack, and Data Analytics",
+  "scripts": {
+    "dev:backend": "python -m uvicorn backend.main:app --reload --port 8000",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "train:models": "python src/models/train.py",
+    "seed:db": "python backend/seed.py",
+    "test:backend": "python backend/test_api.py"
+  },
+  "keywords": [
+    "nlp",
+    "deep-learning",
+    "fastapi",
+    "react",
+    "vite",
+    "recharts",
+    "toxicity-moderation"
+  ],
+  "author": "Capstone Team",
+  "license": "MIT"
+}

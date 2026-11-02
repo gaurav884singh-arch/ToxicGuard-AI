@@ -1,0 +1,237 @@
+{
+  "timestamp": "2026-10-09 23:09:48",
+  "labels": [
+    "toxic",
+    "severe_toxic",
+    "obscene",
+    "threat",
+    "insult",
+    "identity_hate"
+  ],
+  "benchmark_results": [
+    {
+      "model_name": "TF-IDF + Logistic Regression",
+      "subset_accuracy": 0.9247,
+      "hamming_accuracy": 0.9858,
+      "precision_macro": 0.8119,
+      "precision_micro": 0.7596,
+      "recall_macro": 0.869,
+      "recall_micro": 0.9814,
+      "f1_macro": 0.789,
+      "f1_micro": 0.8564,
+      "roc_auc_macro": 0.9889,
+      "roc_auc_per_label": {
+        "toxic": 1.0,
+        "severe_toxic": 0.9567,
+        "obscene": 1.0,
+        "threat": 0.9767,
+        "insult": 1.0,
+        "identity_hate": 1.0
+      },
+      "f1_per_label": {
+        "toxic": 1.0,
+        "severe_toxic": 0.1961,
+        "obscene": 0.9286,
+        "threat": 0.6667,
+        "insult": 0.9425,
+        "identity_hate": 1.0
+      }
+    },
+    {
+      "model_name": "TF-IDF + Linear SVM",
+      "subset_accuracy": 0.9904,
+      "hamming_accuracy": 0.9981,
+      "precision_macro": 1.0,
+      "precision_micro": 1.0,
+      "recall_macro": 0.7738,
+      "recall_micro": 0.9565,
+      "f1_macro": 0.8194,
+      "f1_micro": 0.9778,
+      "roc_auc_macro": 0.9873,
+      "roc_auc_per_label": {
+        "toxic": 1.0,
+        "severe_toxic": 0.9565,
+        "obscene": 1.0,
+        "threat": 0.967,
+        "insult": 1.0,
+        "identity_hate": 1.0
+      },
+      "f1_per_label": {
+        "toxic": 1.0,
+        "severe_toxic": 0.25,
+        "obscene": 1.0,
+        "threat": 0.6667,
+        "insult": 1.0,
+        "identity_hate": 1.0
+      }
+    },
+    {
+      "model_name": "Simple ANN (Dense)",
+      "subset_accuracy": 0.9439,
+      "hamming_accuracy": 0.988,
+      "precision_macro": 0.6823,
+      "precision_micro": 0.7929,
+      "recall_macro": 0.8452,
+      "recall_micro": 0.9752,
+      "f1_macro": 0.7257,
+      "f1_micro": 0.8747,
+      "roc_auc_macro": 0.9905,
+      "roc_auc_per_label": {
+        "toxic": 1.0,
+        "severe_toxic": 0.969,
+        "obscene": 1.0,
+        "threat": 0.9743,
+        "insult": 1.0,
+        "identity_hate": 1.0
+      },
+      "f1_per_label": {
+        "toxic": 1.0,
+        "severe_toxic": 0.2105,
+        "obscene": 0.9512,
+        "threat": 0.25,
+        "insult": 0.9425,
+        "identity_hate": 1.0
+      }
+    },
+    {
+      "model_name": "1D CNN Text Classifier",
+      "subset_accuracy": 0.6779,
+      "hamming_accuracy": 0.7922,
+      "precision_macro": 0.1383,
+      "precision_micro": 0.1568,
+      "recall_macro": 0.8065,
+      "recall_micro": 0.8758,
+      "f1_macro": 0.2225,
+      "f1_micro": 0.266,
+      "roc_auc_macro": 0.8623,
+      "roc_auc_per_label": {
+        "toxic": 0.9288,
+        "severe_toxic": 0.8252,
+        "obscene": 0.8893,
+        "threat": 0.6568,
+        "insult": 0.9182,
+        "identity_hate": 0.9555
+      },
+      "f1_per_label": {
+        "toxic": 0.4681,
+        "severe_toxic": 0.0641,
+        "obscene": 0.2949,
+        "threat": 0.0263,
+        "insult": 0.3458,
+        "identity_hate": 0.1358
+      }
+    },
+    {
+      "model_name": "LSTM Classifier",
+      "subset_accuracy": 0.266,
+      "hamming_accuracy": 0.7214,
+      "precision_macro": 0.0102,
+      "precision_micro": 0.0164,
+      "recall_macro": 0.4069,
+      "recall_micro": 0.0932,
+      "f1_macro": 0.0196,
+      "f1_micro": 0.028,
+      "roc_auc_macro": 0.6085,
+      "roc_auc_per_label": {
+        "toxic": 0.5801,
+        "severe_toxic": 0.689,
+        "obscene": 0.4877,
+        "threat": 0.6961,
+        "insult": 0.3926,
+        "identity_hate": 0.8056
+      },
+      "f1_per_label": {
+        "toxic": 0.0,
+        "severe_toxic": 0.0328,
+        "obscene": 0.0,
+        "threat": 0.0097,
+        "insult": 0.0,
+        "identity_hate": 0.0751
+      }
+    },
+    {
+      "model_name": "Bidirectional LSTM",
+      "subset_accuracy": 0.5016,
+      "hamming_accuracy": 0.6506,
+      "precision_macro": 0.1,
+      "precision_micro": 0.1075,
+      "recall_macro": 0.9629,
+      "recall_micro": 0.9752,
+      "f1_macro": 0.1735,
+      "f1_micro": 0.1936,
+      "roc_auc_macro": 0.8886,
+      "roc_auc_per_label": {
+        "toxic": 0.9229,
+        "severe_toxic": 0.8865,
+        "obscene": 0.9179,
+        "threat": 0.8457,
+        "insult": 0.8983,
+        "identity_hate": 0.86
+      },
+      "f1_per_label": {
+        "toxic": 0.338,
+        "severe_toxic": 0.0545,
+        "obscene": 0.2699,
+        "threat": 0.0167,
+        "insult": 0.2516,
+        "identity_hate": 0.1104
+      }
+    },
+    {
+      "model_name": "Hybrid CNN + BiLSTM (Production)",
+      "subset_accuracy": 0.6266,
+      "hamming_accuracy": 0.801,
+      "precision_macro": 0.1127,
+      "precision_micro": 0.1043,
+      "recall_macro": 0.5288,
+      "recall_micro": 0.4783,
+      "f1_macro": 0.1631,
+      "f1_micro": 0.1713,
+      "roc_auc_macro": 0.7387,
+      "roc_auc_per_label": {
+        "toxic": 0.7669,
+        "severe_toxic": 0.7439,
+        "obscene": 0.7295,
+        "threat": 0.5683,
+        "insult": 0.7835,
+        "identity_hate": 0.8398
+      },
+      "f1_per_label": {
+        "toxic": 0.3095,
+        "severe_toxic": 0.0488,
+        "obscene": 0.2237,
+        "threat": 0.0303,
+        "insult": 0.2877,
+        "identity_hate": 0.0788
+      }
+    }
+  ],
+  "best_model": {
+    "model_name": "Hybrid CNN + BiLSTM (Production)",
+    "subset_accuracy": 0.6266,
+    "hamming_accuracy": 0.801,
+    "precision_macro": 0.1127,
+    "precision_micro": 0.1043,
+    "recall_macro": 0.5288,
+    "recall_micro": 0.4783,
+    "f1_macro": 0.1631,
+    "f1_micro": 0.1713,
+    "roc_auc_macro": 0.7387,
+    "roc_auc_per_label": {
+      "toxic": 0.7669,
+      "severe_toxic": 0.7439,
+      "obscene": 0.7295,
+      "threat": 0.5683,
+      "insult": 0.7835,
+      "identity_hate": 0.8398
+    },
+    "f1_per_label": {
+      "toxic": 0.3095,
+      "severe_toxic": 0.0488,
+      "obscene": 0.2237,
+      "threat": 0.0303,
+      "insult": 0.2877,
+      "identity_hate": 0.0788
+    }
+  }
+}
